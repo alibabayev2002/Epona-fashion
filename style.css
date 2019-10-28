@@ -59,7 +59,6 @@ menu li a {
 .ex_button { border: solid 1px silver; padding: 3% 5%;background-color: #54a0ff;margin-top: 5%;}
 .log_button:hover{ color:white;background-color: black; transition: 800ms all;cursor: pointer;}
 menu li a:hover{ opacity: .1; transition: 700ms all;}
-.center
 .center img {cursor: pointer;}
 /* .center img:hover {opacity: .4;transition: 600ms all;} */
 header .logo {
