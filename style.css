@@ -64,13 +64,13 @@ menu li a:hover{ opacity: .1; transition: 700ms all;}
 header .logo {
 }
 .test{flex:1;}
-.test1{flex:13; text-align: center;}
+.test1{flex:13; }
 .center{
     text-align: center;
     padding: 2% 16%;
 }
 
-.flex{display: flex;}
+.flex{display: flex;justify-content: center;align-items: center;}
 .buy:hover{background-color:black;color: gray;}
 .welcome_text{
     width: 100%;
