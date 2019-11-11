@@ -1,4 +1,4 @@
-<?php $page = $_GET['page']; ?>
+<?php $page = isset($_GET['page']); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,9 +20,9 @@
                                 style="position: fixed; left: -600px; display: flex;flex-direction: column;text-align: center;align-items: center;">
                                 <menu style="display:block;">
                                         <!-- <li><button class="log_button">LOGIN</button></li> -->
-                                <li style="">
-                                        <img class="logo" src="logo.png" width="100" alt="">
-                                </li>
+                                        <li style="">
+                                                <img class="logo" src="logo.png" width="100" alt="">
+                                        </li>
                                         <!-- <li style="margin-bottom: 0%;"><button  class="log_button">EXIT</button></li> -->
                                 </menu>
 
@@ -41,6 +41,7 @@
                                                         style="border-bottom: 1px black solid;color:black;" <?php } ?>
                                                         href="index.php?page=sale">SALE</a></li>
                                 </menu>
+
                                 <div style="display: flex; flex-direction: row;text-align: center;justify-content: center; margin-top: 15%;width: 90%;"
                                         class="menu_content">
                                         <ul style="flex: 1;">
@@ -89,14 +90,14 @@
                                         <!-- <div class="container"> -->
 
                                         <div class="test"><img style="float: left;" onclick="start()" id="menu"
-                                                        class="search_icon" src="menu.png" width="24px" alt=""></div>
+                                                        class="search_icon" src="menu-3.png" width="24px" alt=""></div>
                                         <div class="test1"><img class="logo" src="logo.png" width="90" alt=""></div>
-                                        <div class="" style="float:right;flex:1;">
+                                        <div class="test2" style="">
+                                                <img class="user_icon" src="user.png" alt="">
                                                 <!-- <img style="margin-right:5%;" class="profile_icon" width="19px" src="user.png" alt=""> -->
-                                                <img style="margin-right:8%;" class="profile_icon" width="18px"
-                                                        src="search.svg" alt="">
-                                                <img style="margin-right:0%;" class="profile_icon" width="18px"
-                                                        src="shop.png" alt="">
+                                                <img class="profile_icon" src="search.svg" alt="">
+                                                <img class="profile_icon" src="shop.png" alt="">
+
                                         </div>
                                         <!-- </div> -->
                                 </header>
@@ -174,7 +175,7 @@
                                                                                 test = 0;
                                                                                 clearInterval(
                                                                                         interval3
-                                                                                        );
+                                                                                );
                                                                                 test = 1;
                                                                                 i = 0;
 
@@ -194,7 +195,7 @@
                                                                                 y = y + 1;
                                                                                 clearInterval(
                                                                                         interval2
-                                                                                        );
+                                                                                );
                                                                         }
 
                                                                 }, 80);
