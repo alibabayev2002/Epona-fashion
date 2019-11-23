@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>E P O N A</title>
     <style>
        
@@ -15,7 +15,7 @@
                 <div id="pp" style="position: fixed; left: -600px; display: flex;flex-direction: column;text-align: center;align-items: center;">
                                 <menu style="display:block;">
                                                 <!-- <li><button class="log_button">LOGIN</button></li> -->
-                                                <li style=""><img  class="logo" src="logo.png" width="100" alt=""></li>
+                                                <li style=""><img  class="logo" src="images/logo.png" width="100" alt=""></li>
                                                 <!-- <li style="margin-bottom: 0%;"><button  class="log_button">EXIT</button></li> -->
                                         </menu>
                                 
@@ -45,12 +45,12 @@
                                                 <p style="font:sans-serif;margin-top:10%;font-size:10px;color:silver;">FREE US SHIPPING ON ORDERS OVER $100</p>
                                                 <p style="font-family: 'Raleway', sans-serif;margin-top:10%;font-size:16px;">COLLECTIONS</p>
                                                 <menu style="">
-                                                                <li style="width:30%;"> <img style="flex: 1;" id="img" width="32%" src="wallpaper.jpg" alt=""></li>
-                                                                 <li style="width:30%"><img style="flex: 1;"  id="img" width="30%" src="wallpaper3.jpg" alt=""></li>
+                                                                <li style="width:30%;"> <img style="flex: 1;" id="img" width="32%" src="images/wallpaper.jpg" alt=""></li>
+                                                                 <li style="width:30%"><img style="flex: 1;"  id="img" width="30%" src="images/wallpaper3.jpg" alt=""></li>
                                                  </menu>
                                                  <menu style="">
-                                                                <li style="width:30%;"> <img style="flex: 1;" id="img" width="32%" src="wallpaper.jpg" alt=""></li>
-                                                                 <li style="width:30%"><img style="flex: 1;"  id="img" width="30%" src="wallpaper3.jpg" alt=""></li>
+                                                                <li style="width:30%;"> <img style="flex: 1;" id="img" width="32%" src="images/wallpaper.jpg" alt=""></li>
+                                                                 <li style="width:30%"><img style="flex: 1;"  id="img" width="30%" src="images/wallpaper3.jpg" alt=""></li>
                                                  </menu>
                                                 <!-- <div style="display: flex;flex-direction: row; width: 100%;">
                                                                 <img style="" id="img" width="30%" src="wallpaper2.jpg" alt="">
@@ -64,11 +64,11 @@
                                                 <!-- <div class="container"> -->
                                                         
                                                         <div class="test"><img style="float: left;" onclick="start()" id="menu" class="search_icon" src="menu.png" width="24px" alt=""></div>
-                                                        <div class="test1"><img class="logo" src="logo.png" width="90" alt=""></div>
+                                                        <div class="test1"><img class="logo" src="images/logo.png" width="90" alt=""></div>
                                                         <div class="" style="float:right;flex:1;">
-                                                                <img style="margin-right:5%;" class="profile_icon" width="19px" src="user.png" alt="">
-                                                                <img style="margin-right:8%;"  class="profile_icon" width="18px" src="search.svg" alt="">
-                                                                <img style="margin-right:0%;"  class="profile_icon" width="18px" src="shop.png" alt="">
+                                                                <img style="margin-right:5%;" class="profile_icon" width="19px" src="images/user.png" alt="">
+                                                                <img style="margin-right:8%;"  class="profile_icon" width="18px" src="images/search.svg" alt="">
+                                                                <img style="margin-right:0%;"  class="profile_icon" width="18px" src="images/shop.png" alt="">
                                                         </div>
                                                 <!-- </div> -->
                                             </header>
