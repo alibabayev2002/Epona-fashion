@@ -1,4 +1,4 @@
-<?php $page = isset($_GET['page']); ?>
+<?php $page = $_GET['page'] ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,23 +63,23 @@
                                         ON ORDERS OVER
                                         $100</p>
                                 <p style="font-family: 'Raleway', sans-serif;margin-top:10%;font-size:16px;">COLLECTIONS
-                                </p>
-                                <menu style="">
-                                        <li style="width:30%;"> <img style="flex: 1;" id="img" width="32%"
-                                                        src="wallpaper.jpg" alt="">
-                                        </li>
-                                        <li style="width:30%"><img style="flex: 1;" id="img" width="30%"
-                                                        src="wallpaper3.jpg" alt="">
-                                        </li>
-                                </menu>
-                                <menu style="">
-                                        <li style="width:30%;"> <img style="flex: 1;" id="img" width="32%"
-                                                        src="wallpaper.jpg" alt="">
-                                        </li>
-                                        <li style="width:30%"><img style="flex: 1;" id="img" width="30%"
-                                                        src="wallpaper3.jpg" alt="">
-                                        </li>
-                                </menu>
+                                </p><br>
+                                <div class="sidebar_flex_wrapper">
+                                        <div class="main_page_flex_container">
+                                                <img width="98%" src="wallpaper11.jpg" alt="">
+                                        </div>
+                                        <div class="main_page_flex_container">
+                                                <img width="50%" src="wallpaper2.jpg" alt="">
+                                        </div>
+                                </div><br>
+                                <div class="sidebar_flex_wrapper">
+                                        <div class="main_page_flex_container">
+                                                <img width="98%" src="wallpaper3.jpg" alt="">
+                                        </div>
+                                        <div class="main_page_flex_container">
+                                                <img width="98%" src="wallpaper4.jpg" alt="">
+                                        </div>
+                                </div>
                                 <!-- <div style="display: flex;flex-direction: row; width: 100%;">
                                                                 <img style="" id="img" width="30%" src="wallpaper2.jpg" alt="">
                                                                 <img style="" id="img" width="30%" src="wallpaper3.jpg" alt="">
@@ -90,7 +90,7 @@
                                         <!-- <div class="container"> -->
 
                                         <div class="test"><img style="float: left;" onclick="start()" id="menu"
-                                                        class="search_icon" src="menu-3.png" width="24px" alt=""></div>
+                                                        class="search_icon" src="menu-3.png" alt=""></div>
                                         <div class="test1"><img class="logo" src="logo.png" width="90" alt=""></div>
                                         <div class="test2" style="">
                                                 <img class="user_icon" src="user.png" alt="">
@@ -108,6 +108,8 @@
         
         if($page == ''){
                 require_once('home.php');
+        }elseif($page == 'about'){
+                require_once('about.php');
         }
         ?>
 
@@ -131,8 +133,8 @@
                                                                         document.getElementById("pp")
                                                                                 .style.left =
                                                                                 parseInt(x) + parseInt(
-                                                                                        5) + 'px';
-                                                                        i = i + 5;
+                                                                                        8) + 'px';
+                                                                        i = i + 8;
                                                                         if (i == 600) {
                                                                                 clearInterval(interval);
                                                                                 test = 0;
@@ -168,8 +170,8 @@
                                                                         document.getElementById("pp")
                                                                                 .style.left =
                                                                                 parseInt(x) - parseInt(
-                                                                                        4) + 'px';
-                                                                        i = i - 4;
+                                                                                        6) + 'px';
+                                                                        i = i - 6;
                                                                         if (i == -300) {
                                                                                 y = 9;
                                                                                 test = 0;
