@@ -3,7 +3,6 @@
 <html lang="en">
 
 <head>
-<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,16 +11,6 @@
     <style>
        
     </style>
-=======
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="style.css">
-        <title>E P O N A</title>
-        <style>
-
-        </style>
->>>>>>> 315a31cc08ad2075e233b71ac4602ef2098036e5
 </head>
 
 <body>
@@ -30,7 +19,6 @@
                         <div id="pp"
                                 style="position: fixed; left: -600px; display: flex;flex-direction: column;text-align: center;align-items: center;">
                                 <menu style="display:block;">
-<<<<<<< HEAD
                                                 <!-- <li><button class="log_button">LOGIN</button></li> -->
                                                 <li style=""><img  class="logo" src="images/logo.png" width="100" alt=""></li>
                                                 <!-- <li style="margin-bottom: 0%;"><button  class="log_button">EXIT</button></li> -->
@@ -70,80 +58,15 @@
                                                                  <li style="width:30%"><img style="flex: 1;"  id="img" width="30%" src="images/wallpaper3.jpg" alt=""></li>
                                                  </menu>
                                                 <!-- <div style="display: flex;flex-direction: row; width: 100%;">
-=======
-                                        <!-- <li><button class="log_button">LOGIN</button></li> -->
-                                        <li style="">
-                                                <img class="logo" src="logo.png" width="100" alt="">
-                                        </li>
-                                        <!-- <li style="margin-bottom: 0%;"><button  class="log_button">EXIT</button></li> -->
-                                </menu>
-
-
-                                <menu>
-                                        <li><a <?php if($page == '') { ?>
-                                                        style="border-bottom: 1px black solid;color:black;" <?php } ?>
-                                                        href="index.php">HOME</a></li>
-                                        <li><a <?php if($page == 'about') { ?>
-                                                        style="border-bottom: 1px black solid;color:black;" <?php } ?>
-                                                        href="index.php?page=about">ABOUT</a></li>
-                                        <li><a <?php if($page == 'world') { ?>
-                                                        style="border-bottom: 1px black solid;color:black;" <?php } ?>
-                                                        href="index.php?page=world">WORLD</a></li>
-                                        <li><a <?php if($page == 'sale') { ?>
-                                                        style="border-bottom: 1px black solid;color:black;" <?php } ?>
-                                                        href="index.php?page=sale">SALE</a></li>
-                                </menu>
-
-                                <div style="display: flex; flex-direction: row;text-align: center;justify-content: center; margin-top: 15%;width: 90%;"
-                                        class="menu_content">
-                                        <ul style="flex: 1;">
-                                                <li>New Style</li>
-                                                <li>Base Layers</li>
-                                                <li>Shorts</li>
-                                                <li>Accesiors</li>
-
-                                        </ul>
-                                        <ul style=" flex: 1;">
-                                                <li>New Style</li>
-                                                <li>Base Layers</li>
-                                                <li>Shorts</li>
-                                                <li>Accesiors</li>
-                                        </ul>
-                                </div>
-
-                                <p style="font:sans-serif;margin-top:10%;font-size:10px;color:silver;">FREE US SHIPPING
-                                        ON ORDERS OVER
-                                        $100</p>
-                                <p style="font-family: 'Raleway', sans-serif;margin-top:10%;font-size:16px;">COLLECTIONS
-                                </p><br>
-                                <div class="sidebar_flex_wrapper">
-                                        <div class="main_page_flex_container">
-                                                <img width="98%" src="wallpaper11.jpg" alt="">
-                                        </div>
-                                        <div class="main_page_flex_container">
-                                                <img width="50%" src="wallpaper2.jpg" alt="">
-                                        </div>
-                                </div><br>
-                                <div class="sidebar_flex_wrapper">
-                                        <div class="main_page_flex_container">
-                                                <img width="98%" src="wallpaper3.jpg" alt="">
-                                        </div>
-                                        <div class="main_page_flex_container">
-                                                <img width="98%" src="wallpaper4.jpg" alt="">
-                                        </div>
-                                </div>
-                                <!-- <div style="display: flex;flex-direction: row; width: 100%;">
->>>>>>> 315a31cc08ad2075e233b71ac4602ef2098036e5
                                                                 <img style="" id="img" width="30%" src="wallpaper2.jpg" alt="">
                                                                 <img style="" id="img" width="30%" src="wallpaper3.jpg" alt="">
                                                 </div> -->
                         </div>
                         <div id="epona" onclick="stop()">
                                 <header>
-<<<<<<< HEAD
                                                 <!-- <div class="container"> -->
                                                         
-                                                        <div class="test"><img style="float: left;" onclick="start()" id="menu" class="search_icon" src="menu.png" width="24px" alt=""></div>
+                                                        <div class="test"><img style="float: left;" onclick="start()" id="menu" class="search_icon" src="images/menu.png" width="24px" alt=""></div>
                                                         <div class="test1"><img class="logo" src="images/logo.png" width="90" alt=""></div>
                                                         <div class="" style="float:right;flex:1;">
                                                                 <img style="margin-right:5%;" class="profile_icon" width="19px" src="images/user.png" alt="">
@@ -156,26 +79,6 @@
                                             <br>
                                                     <!-- <p class="welcome_text">XOŞ GƏLMİŞSİNİZ !</p> -->
                                                     <?php 
-=======
-                                        <!-- <div class="container"> -->
-
-                                        <div class="test"><img style="float: left;" onclick="start()" id="menu"
-                                                        class="search_icon" src="menu-3.png" alt=""></div>
-                                        <div class="test1"><img class="logo" src="logo.png" width="90" alt=""></div>
-                                        <div class="test2" style="">
-                                                <img class="user_icon" src="user.png" alt="">
-                                                <!-- <img style="margin-right:5%;" class="profile_icon" width="19px" src="user.png" alt=""> -->
-                                                <img class="profile_icon" src="search.svg" alt="">
-                                                <img class="profile_icon" src="shop.png" alt="">
-
-                                        </div>
-                                        <!-- </div> -->
-                                </header>
-                                <div class="center">
-                                        <br>
-                                        <!-- <p class="welcome_text">XOŞ GƏLMİŞSİNİZ !</p> -->
-                                        <?php 
->>>>>>> 315a31cc08ad2075e233b71ac4602ef2098036e5
         
         if($page == ''){
                 require_once('home.php');
