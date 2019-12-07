@@ -23,7 +23,7 @@
 
                 <img src="images/wallp2.jpg" class="wallpaper1" alt="">
         </div>
-</div> -->
+</div>
 <div class="flex">
         <div class="flex_box" style="margin-top:7%;">
                 <img src="images/wallpaper12.jpg" width="95%" alt="">
